@@ -10,7 +10,7 @@ Every aynchrouns function in final-fs module uses [when](https://github.com/cujo
 For example, checking file existance can be done with this code:
 
 ```js
-var ffs = requtheire('final-fs');
+var ffs = require('final-fs');
 
 ffs.exists('somefile.txt').then(function (exists) {
     if (exists) {
